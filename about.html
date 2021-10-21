@@ -1,0 +1,67 @@
+---
+layout: page
+title: About
+permalink: /about/
+---
+
+    <!-- Wrapper Start -->
+    <section id="intro">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="block">
+              <img src="{{ site.baseurl }}/img/about-cover.jpg" alt="Clarisse at piano">
+          </div>
+        </div>
+      </div>
+    </section>
+
+<section id="testimonial">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        {% if site.data.testimonials.size > 0 %}
+        <div class="testimonial-carousel">
+          <div id="testimonial-slider" class="owl-carousel">
+            {% for tm in site.data.testimonials %}
+            <div>
+                <p>{{ tm.testimonial }}</p>
+                <div class="user">
+                <p><span>{{ tm.name }}</span> {{ tm.title }}</p>
+                </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="intro">
+  <div class="container">
+<div class="row">
+  <p>An avid advocate for lesser-known music, Singaporean pianist Clarisse Teo frequently showcases such repertoire in her recitals. She has performed in Germany, Scotland and Singapore, and her 2018 recital in Singapore was named by <i>The Straits Times</i> as one of Singapore’s best Classical concerts of that year.</p>
+  <p>Her performance has been described as “display[ing] total confidence and a fearless disregard for their technical complexities, while…[sounding] fresh and natural” (<i>The Straits Times</i>). Recently, she was featured in the album ‘Rarities of Piano Music at “Schloss vor Husum” from the 2019 Festival (<i>Danacord Records</i>).</p>
+  <p>As a chamber musician, Clarisse appears most often in piano duet and duo settings. She and her duo partner presented a sold-out concert at the Esplanade Recital Studio (Singapore) in 2016, where they explored a diverse range of 20th Century piano duo works from Gershwin to Poulenc. Additionally, Clarisse has collaborated with professional Japanese instrumentalists from the Min-On Ensemble to perform a mix of Western Classical and traditional Japanese music for a concert celebrating the 50th anniversary of Singapore-Japan bilateral relations.
+  </p><p>Under the tutelage of Timothy Ku (piano) and Marietta Ku (violin and viola), Clarisse obtained a FRSM in piano, DipABRSM (Distinction) in violin and DipABRSM in viola. Whilst pursuing an undergraduate degree in Law at the National University of Singapore, Clarisse was a performer and Student Music Director with the university’s piano ensemble. Thereafter, she studied with Sinae Lee at the Royal Conservatoire of Scotland on a partial scholarship and attained a Master of Music in piano performance. Clarisse is now pursuing a Doctor of Performing Arts degree under the supervision of Sinae Lee and Dr. Christina Guillaumier with the support of the Royal Conservatoire of Scotland Trust and the Trailblazer Foundation.</p>       
+</div>
+</div>
+</section>
+
+  <!-- Call to action Start 
+<section id="call-to-action">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>"Clarisse Teo gives a cracking performance of this remarkable work."</h1>
+          <p><i>- John France, Rarities of Piano Music at Schloss vor Husum 2019</i></p>
+          <a class="btn btn-default btn-call-to-action" href="#" >READ MORE</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+-->

@@ -1,16 +1,15 @@
-- name: Rose Ray
-  title: CEO-Themefisher
-  testimonial: "This company created an e-commerce site with the tools to make our business a success, with innovative ideas. We feel that our site has unique elements that make us stand out from the crowd."
-  image: img/item-img1.jpg
-- name: Rose Ray sr.
-  title: CEO-Themefisher
-  testimonial: "An e-commerce site was created by this company with the tools to make our business a success, with innovative ideas. We feel that our site has unique elements that make us stand out from the crowd."
-  image: img/item-img1.jpg
-- name: Rose Ray jr.
-  title: CEO-Themefisher
-  testimonial: "With the tools to make our business a success, this company created an e-commerce site, with innovative ideas. We feel that our site has unique elements that make us stand out from the crowd."
-  image: img/item-img1.jpg
-- name: Rose Ray III
-  title: CEO-Themefisher
-  testimonial: "We feel that our site has unique elements that make us stand out from the crowd. This company created an e-commerce site with the tools to make our business a success, with innovative ideas."
-  image: img/item-img1.jpg
+- name: The Straits Times
+  title: Life News & Top Stories
+  testimonial: "Her performance [...] displayed total confidence and a fearless disregard for their technical complexities, while making this arcane music sound fresh and natural."
+- name: The Straits Times
+  title: The Arts & Lifestyle
+  testimonial: "That she conducted herself with utter confidence and supreme musicality was beyond doubt."
+- name: Rob Challinor
+  title: MusicWeb International
+  testimonial: "Teo brings out the startlingly contrasting moods and complex figures with ease"
+- name: John France
+  title: MusicWeb International
+  testimonial: "Clarisse Teo gives a cracking performance of this remarkable work."
+- name: Rob Challinor
+  title: MusicWeb International
+  testimonial: "It was her dreamy playing of the meditativamente ma un poco piu that particularly held my attention."
